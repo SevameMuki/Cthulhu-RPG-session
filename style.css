@@ -1,0 +1,9 @@
+.folder-list {
+  display: flex;
+}
+.folder {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  cursor: pointer;
+}
