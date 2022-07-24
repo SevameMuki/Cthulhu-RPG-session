@@ -2,8 +2,15 @@
   display: flex;
 }
 .folder {
+  text-decoration: none;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   cursor: pointer;
+}
+.folder span {
+  color: green;
+}
+.locked {
+  pointer-events: none;
 }
